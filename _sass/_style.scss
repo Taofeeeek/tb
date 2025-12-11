@@ -192,6 +192,7 @@ code {
 }
 
 body {
+  overflow-x: hidden;
   &.fixed-nav #wrapper #page-wrapper {
     margin-top: 60px;
   }
@@ -2103,7 +2104,7 @@ ul.clear-list:first-child {
   text-align: right;
   font-size: 38px;
   color: #e8e9ea;
-  margin-top: 40px;
+  margin-top: 20px;
   &.active {
     color: #212121;
   }
@@ -2777,6 +2778,13 @@ body {
       background: #212121;
     }
   }
+
+  @media (max-width: 555px) {
+    .social-icon a {
+      margin-bottom: 15px;
+    }
+  }
+
   .img-small {
     height: 88px;
     width: 88px;
