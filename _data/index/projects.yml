@@ -1,0 +1,24 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: SHIELD Web App
+  i18n: tb
+  gh_user: taofeeeek
+  repo:
+  img: /static/assets/img/landing/shield.png
+  desc: Built a fully functional, responsive website using React.js and JavaScript, featuring dynamic components and interactive UI elements. Designed and styled the application with modern CSS techniques to ensure a polished user experience. Deployed the site on GitHub Pages, implementing efficient project structure, reusable components, and smooth client-side routing for reliable performance and easy maintainability.
+  url: https://shieldlabtempleton.github.io/web/#/
+  role: Lead software developer
+  duration: 1 month
+  skills: ReactJS, JavaScript, Git, GitHub, CSS, VS Code, Feature Prioritization, Communication
+# - name: Python
+#   i18n: cpython
+#   gh_user: python
+#   repo: cpython
+#   img: /static/assets/img/landing/python.png
+#   desc: This project is other's project. I use another request to get repo's information.
+# - name: Google
+#   i18n: google
+#   url: https://google.com
+#   img: /static/assets/img/landing/google.png
+#   desc: This is another project.

@@ -1,0 +1,92 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: University of South Florida (SHIELD LAB)
+    i18n: company_a
+  loc:
+    detail: Tampa, FL
+    i18n: tampa_fl
+  desc:
+    detail: As a data scientist at shield lab, I led research efforts to develope a machine-learning classification system for early ACL injury risk detection, achieving 75% accuracy through optimized model design, feature engineering, and hyperparameter tuning.
+    i18n: company_a_desc
+  date:
+    detail: Jan. 2024 - May 2025
+    i18n: company_a_date
+  job:
+    detail: Data Scientist
+    i18n: company_a_job
+  icon: fa-plus-square
+  logo: static/assets/img/landing/USF.png
+  # present: true
+
+- name:
+    detail: PlayerNet
+    i18n: company_b
+  loc:
+    detail: Tampa, FL
+    i18n: tampa_fl
+  desc:
+    detail: Led a cross-functional team of engineers and designers to oversee the end-to-end product lifecycle of a full-stack mobile application for gamers. Curated a roadmap, established KPIs, OKRs, and long term goals, and executed GTM strategy.
+    i18n: company_b_desc
+  date:
+    detail: Mar. 2023 - Aug. 2024
+    i18n: company_b_date
+  job:
+    detail: Lead Product Manager
+    i18n: company_b_job
+  icon: fa-plus-square
+  logo: static/assets/img/landing/PNlogoalt.png
+
+- name:
+    detail: University of South Florida (Marshall Student Center)
+    i18n: company_b
+  loc:
+    detail: Tampa, FL
+    i18n: tampa_fl
+  desc:
+    detail: Led daily operations to ensure a safe, efficient, and welcoming environment at the USF Marshall Student Center. Collaborated closely with custodial, security, and event management teams to coordinate activities, maintain facility standards, and support student-oriented services. Demonstrated strong leadership through effective communication, proactive problem-solving, and the ability to guide teams toward shared goals. Maintained high operational standards while fostering a culture of teamwork, accountability, and exceptional service for students, staff, and visitors.
+    i18n: company_b_desc
+  date:
+    detail: Apr. 2023 - jan. 2024
+    i18n: company_b_date
+  job:
+    detail: Building Manager
+    i18n: company_b_job
+  icon: fa-plus-square
+  logo: static/assets/img/landing/USF.png
+
+- name:
+    detail: AbundantWellness MD
+    i18n: company_b
+  loc:
+    detail: Owasso, OK
+    i18n: tampa_fl
+  desc:
+    detail: Supported high-volume clinical operations in a fast-paced family health clinic by collecting patient vitals, coordinating appointment scheduling, and managing referrals for medical imaging and specialty care. Assisted providers by preparing patients, documenting medical information, and processing medication prescriptions in accordance with clinic protocols. Demonstrated strong teamwork, attention to detail, and the ability to multitask effectively in a dynamic environment. Maintained a patient-centered approach while ensuring efficient workflow, clear communication, and dependable support for both clinical staff and patients.
+    i18n: company_b_desc
+  date:
+    detail: Jul. 2021 - Mar. 2022
+    i18n: company_b_date
+  job:
+    detail: Medical Assistant
+    i18n: company_b_job
+  icon: fa-plus-square
+  logo: static/assets/img/landing/medical.png
+
+- name:
+    detail: AbundantWellness MD
+    i18n: company_b
+  loc:
+    detail: Owasso, OK
+    i18n: tampa_fl
+  desc:
+    detail: Provided real-time clinical documentation support as a medical scribe, accurately recording patient histories, physical exam findings, assessments, and treatment plans during provider encounters. Streamlined workflow in a fast-paced clinical environment by managing electronic health record (EHR) inputs, organizing patient information, and ensuring thorough, compliant documentation. Collaborated closely with physicians and care teams to improve clinical efficiency, reduce provider charting time, and enhance patient care continuity. Demonstrated strong attention to detail, rapid learning, and clear communication while maintaining confidentiality and professionalism.
+    i18n: company_b_desc
+  date:
+    detail: Apr. 2021 - Jul. 2021
+    i18n: company_b_date
+  job:
+    detail: Medical Scribe
+    i18n: company_b_job
+  icon: fa-plus-square
+  logo: static/assets/img/landing/medical.png

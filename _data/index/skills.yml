@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id: cs
+aspects: JavaScript, TypeScript, SQL, Communication, HTML5, ReactJS, AI/ML, Python, Cooking
+percentage: 80, 70, 80, 100, 75, 80, 70, 80, 90,

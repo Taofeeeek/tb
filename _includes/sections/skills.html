@@ -1,0 +1,109 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center" id="i18_skills">
+      <div class="navy-line"></div>
+      <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
+    </div>
+  </div>
+  <div class="user">
+    <div class="wow zoomIn">
+      <div class="tech">
+        <h2>Machine Learning & Data Science</h2>
+        <i class="devicon-pytorch-original colored"></i>
+        <i class="devicon-tensorflow-original colored"></i>
+        <i class="devicon-numpy-plain colored"></i>
+        <i class="devicon-scikitlearn-plain colored"></i>
+        <i class="devicon-pandas-plain-wordmark colored"></i>
+        <p>
+          PyTorch, Tensorflow, Keras, Numpy, Sci-Kit Learn, Pandas, Huggingface,
+          Seaborn.
+        </p>
+      </div>
+    </div>
+    <div class="wow zoomIn" data-wow-delay="0.1s">
+      <div class="tech">
+        <h2>Languages & Querying</h2>
+        <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-typescript-plain colored"></i>
+        <i class="devicon-python-plain-wordmark colored"></i>
+        <i class="devicon-mysql-plain-wordmark colored"></i>
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+        <p>JavaScript, TypeScript, Python, SQL (MySQL), PostgreSQL, NoSQL.</p>
+      </div>
+    </div>
+    <div class="wow zoomIn" data-wow-delay="0.2s">
+      <div class="tech">
+        <h2>Tools</h2>
+        <i class="devicon-git-plain"></i>
+        <i class="devicon-postman-plain colored"></i>
+        <i class="devicon-figma-plain colored"></i>
+        <i class="devicon-vscode-plain colored"></i>
+        <i class="devicon-googlecloud-plain-wordmark colored"></i>
+        <p>
+          Git, GitHub, Firebase, Google Cloud, Power BI, Jupyter Notebooks,
+          Postman, Jira, VS Code, Notion, Figma, MS Office.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="user">
+    <div class="wow zoomIn" data-wow-delay="0.1s">
+      <div class="tech">
+        <h2>Frontend Design</h2>
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-sass-original colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <p>HTML5, Scss, CSS, Figma</p>
+      </div>
+    </div>
+    <div class="wow zoomIn" data-wow-delay="0.2s">
+      <div class="tech">
+        <h2>Frameworks</h2>
+        <i class="devicon-react-original-wordmark colored"></i>
+        <!-- <i class="devicon-reactnative-original-wordmark colored"></i> -->
+        <i class="devicon-nodejs-plain-wordmark colored"></i>
+        <i class="devicon-django-plain-wordmark colored"></i>
+        <p>React JS, React Native, Django, Next.js, Node.js</p>
+      </div>
+    </div>
+  </div>
+  <div class="row features-block">
+    <div class="wow zoomIn col-lg-6 col-lg-offset-3">
+      <canvas
+        id="{{ site.data.index.skills.id }}"
+        height="500"
+        width="500"
+      ></canvas>
+    </div>
+    <div class="col-lg-1"></div>
+    <script>
+      var ctx = document.getElementById("{{ site.data.index.skills.id }}");
+      var data = {
+          labels: "{{ site.data.index.skills.aspects }}".split(","),
+          datasets: [{
+              label: "{{ site.data.index.skills.label }}",
+              backgroundColor: "rgba(179,181,198,0.2)",
+              borderColor: "#3c3c3c",
+              pointBackgroundColor: "#3c3c3c",
+              pointBorderColor: "#3c3c3c",
+              pointHoverBackgroundColor: "#3c3c3c",
+              pointHoverBorderColor: "#3c3c3c",
+              data: [{{ site.data.index.skills.percentage }}]
+              }]
+      };
+      var myRadarChart = new Chart(ctx, {
+          type: 'radar',
+          data: data,
+          options: {
+              scale: {
+                  responsive: true,
+                  ticks: {min: 0, max: 100},
+                  lineArc: false,
+                  pointLabels: {fontSize: 14},
+              },
+              legend: {display: false},
+          }
+      });
+    </script>
+  </div>
+</div>
